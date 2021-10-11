@@ -10,3 +10,23 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+
+body {
+  background-color: #777;
+}
+
+div#wrapper {
+  max-width: 900px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header img {
+  float: right;
+  border: 1px;
+  border-color: #ccc;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
