@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/resume.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
     />
     <link rel="stylesheet" href="https://use.typekit.net/xrw1noq.css" />
     <meta charset="utf-8" />
@@ -20,95 +20,221 @@
   </head>
   <body>
     <div id="wrapper">
-      <header>
-        <h1>Youssef CHARFI</h1>
-        <h2>Etudiant</h2>
+      <header class="header">
         <img
+          class="pic"
           src="https://media-exp1.licdn.com/dms/image/C4D03AQEJudlLBjAMZA/profile-displayphoto-shrink_200_200/0/1615405202462?e=1636588800&v=beta&t=AmJALD2K4WjGeh7L_wh-2qibFq_Nns6UAO5py_GK4w4"
           alt="my photo"
         />
-        <ul>
-          <li>Prénom : Youssef</li>
-          <li>Nom : Charfi</li>
-          <li>Adresse : 2, Rue des archives</li>
-          <li>Date de naissance : 01 mai 1999</li>
-          <li>Email : youssefcharfipro@gmail.com</li>
-          <li>Nationalité : Marocaine</li>
-          <li>
-            Linkedin :
-            <a
-              href="https://www.linkedin.com/in/youssef-charfi/"
-              target="_blank"
-              >voir Profile
-            </a>
-          </li>
-        </ul>
+        <div class="header_info">
+          <h1 class="nom">Youssef CHARFI</h1>
+          <h2 class="profile">Ingénieur en développement logiciel</h2>
+        </div>
       </header>
-      <section>
-        <h3>Présentation :</h3>
+      <section class="row0">
+        <h5 id="titre">Informations :</h5>
+        <div class="col_1">
+          <ul>
+            <li>
+              <i class="fas fa-angle-right"></i
+              ><strong>Prénom :</strong> Youssef
+            </li>
+            <li>
+              <i class="fas fa-angle-right"></i><strong>Nom :</strong> Charfi
+            </li>
+            <li>
+              <i class="fas fa-angle-right"></i><strong>Adresse :</strong> 2,
+              Rue des archives Brest
+            </li>
+            <li>
+              <i class="fas fa-angle-right"></i
+              ><strong>Date de naissance :</strong> 01 mai 1999
+            </li>
+          </ul>
+        </div>
+        <div class="col_2">
+          <ul>
+            <li>
+              <i class="fas fa-angle-right"></i><strong>Email :</strong>
+              youssefcharfipro@gmail.com
+            </li>
+            <li>
+              <i class="fas fa-angle-right"></i
+              ><strong>Nationalité :</strong> Marocaine
+            </li>
+            <li>
+              <i class="fas fa-angle-right"></i
+              ><strong>Nationalité :</strong> Marocaine
+            </li>
+            <li>
+              <i class="fas fa-angle-right"></i><strong>Linkedin :</strong>
+              <a
+                href="https://www.linkedin.com/in/youssef-charfi/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="row1">
+        <h3 id="titre">Présentation :</h3>
         <p>
-          Youssef CHARFI, agé de 22 ans de Casablanca-MAROC,
-          <i class="fas fa-camera-retro"></i> actuellement étudiant en Master 2
-          en développement logiciel des systèmes d'informations à l'Université
-          de Bretagne Occidentale "UBO" de Brest-FRANCE dans le cadre d'une
-          convention de double diplomation entre l'École nationale des sciences
-          appliquées de Tanger "ENSAT" et l'UBO.
+          Youssef CHARFI, agé de 22 ans de Casablanca, actuellement je suis
+          élève ingénieur en Master 2 en développement logiciel des systèmes
+          d'informations à l'Université de Bretagne Occidentale "UBO" à
+          Brest,FRANCE dans le cadre d'une convention de double diplomation
+          entre l'École nationale des sciences appliquées de Tanger "ENSAT" et
+          l'Université de Bretagne Occidentale "UBO".
         </p>
       </section>
-      <section>
-        <h3>Expériences Professionnelles :</h3>
+      <section class="row2">
+        <h3 id="titre">Expériences Professionnelles :</h3>
         <article>
-          j'ai réalisé pas mal de projets dont lesquelles on a travaillé en
+          <i
+            style="color: #149ddd; margin-right: 5px"
+            class="fas fa-angle-right"
+          ></i>
+          j'ai réalisé plusieurs projets dont lesquelles on a travaillé en
           groupe souvent, spécialement des applications web micro services avec
-          différentes téchnologies que ce soit en backend ou en frontend, et
-          j'ai fait un stage d'appliation de 2 mois dans "Prodware" dont lequel
-          j'ai développé un portail client.
+          différentes téchnologies que ce soit en Backend ou en Frontend, parmis
+          ces projets :
+          <ul>
+            <li>
+              <i style="color: black" class="fas fa-code"></i>
+              Application web de gestion des vols portant le nom "TravelUS"
+              réalisé avec le framework Laravel
+              <a
+                href="https://github.com/MohamedBenTaher/projet_ensat-"
+                target="_blank"
+                >Voir code <i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li style="margin-top: 8px">
+              <i style="color: black" class="fas fa-code"></i>
+              Application web de géstion d'une école (actualités ,éspace
+              étudiant, éspace professeur, emploie du temps selon chaque classe,
+              affichage des notes) réalisé avec le framework Laravel.
+              <a
+                href="https://github.com/youssefcharfi/school-laravel"
+                target="_blank"
+                >Voir code <i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li style="margin-top: 8px">
+              <i style="color: black" class="fas fa-code"></i>
+              Application web où les utilisateurs peuvent trouver des offres
+              d’emplois, des offres des stages, des articles sur les nouveautés
+              des technologies differentes pour des domaines differents, réalisé
+              avec NodeJS, Express, React, MongoDB.
+              <a
+                href="https://github.com/youssefcharfi/ENSATcareer"
+                target="_blank"
+                >Voir code <i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+          <i
+            style="color: #149ddd; margin-right: 5px"
+            class="fas fa-angle-right"
+          ></i
+          ><strong>2021 :</strong> Stage d'Appliation de 2 mois dans "Prodware"
+          dont lequel j'ai développé un portail client avec VueJS, Microsoft
+          dynamics 365 business central.
         </article>
       </section>
-      <section>
-        <h3>Compétences :</h3>
+      <section class="row3">
+        <h3 id="titre">Compétences :</h3>
         <dl>
-          <dt>Developpement Frontend :</dt>
-          <dd>HTML/css, javascript, React, VueJs</dd>
-          <dt>Developpement Backend :</dt>
+          <dt>
+            <i
+              style="color: #149ddd; margin-right: 7px"
+              class="fas fa-angle-right"
+            ></i
+            >Languages de Programmation :
+          </dt>
+          <dd>C, C++, C#, Java, PHP, JavaScript</dd>
+          <dt>
+            <i
+              style="color: #149ddd; margin-right: 7px"
+              class="fas fa-angle-right"
+            ></i
+            >Developpement Frontend :
+          </dt>
+          <dd>HTML/CSS, javascript, React, VueJs</dd>
+          <dt>
+            <i
+              style="color: #149ddd; margin-right: 7px"
+              class="fas fa-angle-right"
+            ></i
+            >Developpement Backend :
+          </dt>
           <dd>Laravel, Spring, NodeJS</dd>
-          <dt>Administration et configuration des Bases de données :</dt>
+          <dt>
+            <i
+              style="color: #149ddd; margin-right: 7px"
+              class="fas fa-angle-right"
+            ></i
+            >Administration et configuration des Bases de données :
+          </dt>
           <dd>
             SQL(Oracle, MySQL, SQLServer), NoSQL(MongoDB, Cassandra, Neo4j)
           </dd>
         </dl>
       </section>
-      <section>
-        <h3>Formation :</h3>
+      <section class="row4">
+        <h3 id="titre">Formation :</h3>
         <li>
-          2017-2022 : ENSA Tanger, Diplome d'ingénieur d'etat en génie
-          informaique
+          <i class="fas fa-angle-right"></i>
+          <strong>2021-2022 : </strong> Université de Bretagne Occidental, M2 en
+          développement logiciel des systèmes d'informations
         </li>
         <li>
-          2021-2022 : UBO, M2 en développement logiciel des systèmes
-          d'informations
+          <i class="fas fa-angle-right"></i>
+          <strong>2017-2022 : </strong> ENSA Tanger, Diplome d'ingénieur d'etat
+          en génie informaique
+        </li>
+        <li>
+          <i class="fas fa-angle-right"></i>
+          <strong>2017 : </strong> Baccalauréat Science physique, Mention Très
+          Bien
         </li>
       </section>
-      <section>
-        <h3>Langues :</h3>
-        <li>Arabe, maternelle</li>
-        <li>Francais, courant</li>
-        <li>Anglais, moyen</li>
-        <li>Espagnole, débutant</li>
+      <section class="row5">
+        <h3 id="titre">Langues :</h3>
+        <li>Arabe <progress value="99" max="100">99 %</progress></li>
+        <li>Francais <progress value="89" max="100">89 %</progress></li>
+        <li>Anglais <progress value="50" max="100">50 %</progress></li>
+        <li>Espagnole <progress value="10" max="100">10 %</progress></li>
       </section>
       <footer>
         <ul>
-          <li style="display: inline">
-            <a href="https://www.linkedin.com/in/youssef-charfi/">Linkedin</a>
+          <li>
+            <i class="fab fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/youssef-charfi/"
+              target="_blank"
+              >Linkedin</a
+            >
           </li>
-          <li style="display: inline">
-            <a href="https://github.com/youssefcharfi">Github</a>
+          <li>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/youssefcharfi" target="_blank"
+              >Github</a
+            >
           </li>
-          <li style="display: inline">
-            <a href="https://www.facebook.com/youssefcharfi99">Facebook</a>
+          <li>
+            <i class="fab fa-facebook"></i>
+            <a href="https://www.facebook.com/youssefcharfi99" target="_blank"
+              >Facebook</a
+            >
           </li>
-          <li style="display: inline">
-            <a href="https://www.instagram.com/_youssefcharfi/">Instagram</a>
+          <li>
+            <i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/_youssefcharfi/" target="_blank"
+              >Instagram</a
+            >
           </li>
         </ul>
       </footer>

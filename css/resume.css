@@ -15,7 +15,7 @@ body {
   /*background-color: #777;*/
 }
 
-div#wrapper {
+#wrapper {
   max-width: 900px;
   min-width: 320px;
   margin-left: auto;
@@ -23,6 +23,8 @@ div#wrapper {
 }
 
 header img {
+  height: 160px;
+  margin: 5px;
   float: right;
   border: 1px;
   border-color: #ccc;
@@ -33,8 +35,147 @@ header img {
 
 h1 {
   font-family: acumin-pro, sans-serif;
-
-  font-weight: 700;
-
+  font-weight: 500;
   font-style: normal;
+}
+
+.header {
+  height: 170px;
+  background-color: #173b6c;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.849);
+}
+
+.header_info {
+  margin-left: 30px;
+}
+
+.nom {
+  line-height: 1.5em;
+}
+
+.profile {
+  line-height: 0em;
+}
+
+#titre {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  color: #173b6c;
+  margin-bottom: 20px;
+}
+
+#titre::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.row0 {
+  margin-bottom: 70px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: #272829;
+  height: 135px;
+}
+
+.row1 {
+  margin-bottom: 70px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: #272829;
+  height: 135px;
+}
+
+.row2 {
+  margin-bottom: 70px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: #272829;
+  height: 320px;
+}
+
+.row3 {
+  margin-bottom: 70px;
+  font-family: "Calibri", sans-serif;
+  font-size: 17.5px;
+  color: #272829;
+  height: 230px;
+}
+
+.row4 {
+  margin-bottom: 50px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: #272829;
+  height: 112px;
+}
+
+.row4 li {
+  margin-bottom: 4px;
+}
+
+.row5 {
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: #272829;
+  height: 175px;
+}
+
+.col_1 {
+  float: left;
+}
+
+.col_2 {
+  margin-left: 450px;
+  margin-top: 41px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li i {
+  color: #149ddd;
+  margin-right: 7px;
+}
+
+dd {
+  margin-bottom: 10px;
+}
+
+dt {
+  font-weight: bolder;
+}
+
+progress {
+  margin-left: 15px;
+}
+
+footer {
+  height: 100px;
+  background-color: #173b6c;
+  font-size: 20px;
+}
+
+footer a {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.863);
+  text-decoration: none;
+  cursor: pointer;
+}
+footer li {
+  margin-left: 70px;
+  display: inline;
+}
+
+footer i {
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.925);
 }
