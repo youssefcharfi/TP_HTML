@@ -43,10 +43,43 @@
 
 @media only screen and (max-width: 480px) {
   #wrapper {
-    display: initial;
-
-    background: rgb(235, 5, 139);
-
+    float: right;
     width: 100%;
+  }
+  .profile {
+    font-size: 15.45px;
+  }
+  #titre {
+    margin-left: 10px;
+  }
+  .row0 {
+    height: 270px;
+  }
+  .col_2 {
+    float: left;
+    margin-top: -20px;
+    margin-left: 0px;
+  }
+  .row1 {
+    height: 230px;
+  }
+  .row2 {
+    height: 700px;
+  }
+  .row3 {
+    height: 290px;
+  }
+  .row4 {
+    height: 190px;
+  }
+  footer {
+    height: 150px;
+  }
+  footer i {
+    margin-top: 10px;
+  }
+  footer li {
+    margin-top: 0px;
+    display: table-row;
   }
 }
