@@ -46,8 +46,13 @@
     float: right;
     width: 100%;
   }
+
+  .nom {
+    font-size: 17px;
+  }
+
   .profile {
-    font-size: 13.9px;
+    font-size: 12px;
   }
   #titre {
     margin-left: 10px;
