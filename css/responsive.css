@@ -41,11 +41,11 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   #wrapper {
     display: initial;
 
-    background: rgb(98, 105, 103);
+    background: rgb(9, 221, 161);
 
     width: 100%;
   }
