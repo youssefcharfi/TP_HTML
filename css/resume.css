@@ -98,7 +98,7 @@ h1 {
   font-family: "Calibri", sans-serif;
   font-size: 18px;
   color: #272829;
-  height: 350px;
+  height: 110px;
 }
 
 .row3 {
@@ -178,4 +178,33 @@ footer li {
 footer i {
   margin-top: 40px;
   color: rgba(255, 255, 255, 0.925);
+}
+.btn {
+  background-color: #008cba;
+  color: aliceblue;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: #008cba;
+  color: aliceblue;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 200px;
+  height: 30px;
+  background-color: black;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.fa-star {
+  color: rgb(255, 255, 0);
 }

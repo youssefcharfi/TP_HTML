@@ -25,7 +25,7 @@
         <img
           itemprop="image"
           class="pic"
-          src="https://media-exp1.licdn.com/dms/image/C4D03AQEJudlLBjAMZA/profile-displayphoto-shrink_200_200/0/1615405202462?e=1636588800&v=beta&t=AmJALD2K4WjGeh7L_wh-2qibFq_Nns6UAO5py_GK4w4"
+          src="images/Photo-Youssef.jpg"
           alt="my photo"
         />
         <div class="header_info">
@@ -102,84 +102,54 @@
         j'ai réalisé plusieurs projets dont lesquelles on a travaillé en groupe
         souvent, spécialement des applications web micro services avec
         différentes téchnologies que ce soit en Backend ou en Frontend, parmis
-        ces projets :
-        <ul>
-          <li>
-            <i style="color: black" class="fas fa-code"></i>
-            Application web de gestion des vols portant le nom "TravelUS"
-            réalisé avec le framework Laravel
-            <a
-              href="https://github.com/MohamedBenTaher/projet_ensat-"
-              target="_blank"
-              >Voir code <i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li style="margin-top: 8px">
-            <i style="color: black" class="fas fa-code"></i>
-            Application web de géstion d'une école (actualités ,éspace étudiant,
-            éspace professeur, emploie du temps selon chaque classe, affichage
-            des notes) réalisé avec le framework Laravel.
-            <a
-              href="https://github.com/youssefcharfi/school-laravel"
-              target="_blank"
-              >Voir code <i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li style="margin-top: 8px">
-            <i style="color: black" class="fas fa-code"></i>
-            Application web où les utilisateurs peuvent trouver des offres
-            d’emplois, des offres des stages, des articles sur les nouveautés
-            des technologies differentes pour des domaines differents, réalisé
-            avec NodeJS, Express, React, MongoDB.
-            <a
-              href="https://github.com/youssefcharfi/ENSATcareer"
-              target="_blank"
-              >Voir code <i class="fab fa-github"></i
-            ></a>
-          </li>
-        </ul>
+        ces projets : <button class="btn">Details</button>
+        <ul class="details_projets"></ul>
         <i
           style="color: #149ddd; margin-right: 5px"
           class="fas fa-angle-right"
         ></i
         ><strong>2021 :</strong> Stage d'Appliation de 2 mois dans "Prodware"
-        dont lequel j'ai développé un portail client avec VueJS, Microsoft
-        dynamics 365 business central.
+        <button class="btn2">Details</button>
+        <p class="details_stage" style="margin-left: 50px; margin-top: 5px"></p>
       </article>
       <section class="row3">
         <h3 id="titre">Compétences :</h3>
         <dl>
-          <dt>
+          <dt id="Code" class="skill" onmousemove="mouseDetect(event)">
             <i
               style="color: #149ddd; margin-right: 7px"
               class="fas fa-angle-right"
             ></i
-            >Languages de Programmation :
+            >Languages de Programmation
           </dt>
+          <span class="tooltip">natives languages</span>
           <dd>C, C++, C#, Java, PHP, JavaScript</dd>
-          <dt>
+          <dt id="Frontend" class="skill" onmousemove="mouseDetect(event)">
             <i
               style="color: #149ddd; margin-right: 7px"
               class="fas fa-angle-right"
             ></i
             >Developpement Frontend :
           </dt>
+          <span class="tooltip">frontend</span>
           <dd>HTML/CSS, javascript, React, VueJs</dd>
-          <dt>
+          <dt id="Backend" class="skill" onmousemove="mouseDetect(event)">
             <i
               style="color: #149ddd; margin-right: 7px"
               class="fas fa-angle-right"
             ></i
             >Developpement Backend :
           </dt>
+          <span class="tooltip">backend</span>
           <dd>Laravel, Spring, NodeJS</dd>
-          <dt>
+          <dt id="Database" class="skill" onmousemove="mouseDetect(event)">
             <i
               style="color: #149ddd; margin-right: 7px"
               class="fas fa-angle-right"
             ></i
             >Administration et configuration des Bases de données :
           </dt>
+          <span class="tooltip">database</span>
           <dd>
             SQL(Oracle, MySQL, SQLServer), NoSQL(MongoDB, Cassandra, Neo4j)
           </dd>
@@ -241,5 +211,6 @@
         </ul>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
